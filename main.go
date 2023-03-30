@@ -13,4 +13,8 @@ func main() {
 	b := []int{3, 61, 24, 12, 4, 76, 14, 4, 33, 45, 7851, 142, 34}
 	sort.Qsort(b, 0, len(b)-1)
 	fmt.Printf("b: %v\n", b)
+
+	c := []int{12, 5, 47, 62, 123, 47, 56, 2, 15, 23, 45, 14, 17, 9, 12, 475, 34}
+	sort.HeapSort(c)
+	fmt.Printf("c: %v\n", c)
 }
